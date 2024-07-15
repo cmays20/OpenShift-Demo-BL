@@ -52,6 +52,9 @@ spec:
           password:
             secret: "smtp-password"
             key: "password"
+        serviceAccount:
+          enabled: true
+          create: true
       nginx-ingress:
         enabled: false
       certmanager:
