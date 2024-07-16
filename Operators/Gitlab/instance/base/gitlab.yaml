@@ -59,4 +59,4 @@ spec:
         enabled: false
       certmanager:
         install: false
-    version: 8.1.1
+    version: 8.0.4
